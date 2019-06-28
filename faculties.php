@@ -1,0 +1,79 @@
+<DOCTYPE html>
+<html>
+<head>
+  <title> NSBM Learning Management System </title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="mainstyles.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+  	
+<body>
+
+	<div id="header-wrapper"> 
+    
+	<div id="header" class="container"> 
+		<hr> <h1 align="center"> LEARNING MANAGEMENT SYSTEM </h1> <hr>
+		
+		<div class="topnav" id="myTopnav">
+  <a href="main.html">HOME</a>
+  <a href="services.html">SERVICES</a>
+  <a href="life.html">STUDENT LIFE</a>
+  <a href="main.html">LOGOUT</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</div>
+
+ 
+      <div id="three">
+	      <br>
+          <h2 style="padding-left:120px;">COURSE CATEGORIES </h2> <br>
+          
+          
+      
+      <a href="Lms2.html"> <button class="button1"><span>School Of Computing </span></button> </a>
+      <br> <br>
+	  <a href="sob.php"> <button class="button1"><span>School Of Business </span></button> </a>
+      <br> <br>
+      <a href="soe.html"> <button class="button1"><span>School Of Engineering </span></button> </a>
+	
+      </div>
+	  </div>
+	  
+	  <div id="copyright" class="containerneww">
+			
+    <p class="left"> NSBM Green University Town <br>
+					 Mahenwaththa, Pitipana,<br>
+					 Homagama <br>
+					 Sri Lanka</p>
+					 
+    <p class="right">Contact Us<br />Tel : 011 544 5000 <br> Email :</p>
+	
+    <p class="centered"> Connect With Us <br> <br> 
+	<a href="https://www.facebook.com/nsbm.lk" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/NSBM_SriLanka" target="_blank" class="fa fa-twitter"></a> 
+	<a href="https://www.youtube.com/channel/UCHsodhRyiuri2jD7H7nfsRg/feed" target="_blank" class="fa fa-youtube"></a> 
+	</p>
+
+	 </div>
+
+	<script>
+		function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+	</script>
+	
+
+  
+ 
+
+</body>
+ 
+</html>
